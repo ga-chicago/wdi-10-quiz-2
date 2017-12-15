@@ -1,4 +1,4 @@
-console.log('Allons-y!')
+console.log('Allons-y!');
 
 // 1. Combine objects, arrays, and functions
 // Create an object that has a property that is an array. Log one of the elements of that array.
@@ -8,7 +8,7 @@ let theDoctor = {
 	companions: ['Rose', 'Martha', 'Donna']
 }
 
-console.log("My favorite companion of " + theDoctor.regeneration + " is " + theDoctor.companions[2] + ".")
+console.log("My favorite companion of " + theDoctor.regeneration + " is " + theDoctor.companions[2] + ".");
 
 // Create an object that has a property that is an object. Log one of the properties of that inner object.
 let hermione = {
@@ -21,7 +21,7 @@ let hermione = {
 	friends: ['Harry', 'Ron']
 }
 
-console.log(hermione.pet.name)
+console.log(hermione.pet.name);
 
 // Create an object that has a property that is a function (method). Call that method.
 let serenity = {
@@ -36,7 +36,7 @@ let serenity = {
 
 }
 
-serenity.newPassengers(1, 'River')
+serenity.newPassengers(1, 'River');
 
 
 // 2. Combine objects, arrays, and functions
@@ -72,7 +72,21 @@ let secondFunction = (callFunction) => {
 	console.log('running the second function');
 }
 
-secondFunction(firstFunction)
+secondFunction(firstFunction);
+
+// 4. Indentation
+// Correctly indent the following code:
+
+if(true) {
+   const a = 2 + 2;
+   console.log(a);
+}
+
+if(true){
+   if(false){
+    console.log('hi');
+   }
+}
 
 
 
