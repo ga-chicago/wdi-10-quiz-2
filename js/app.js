@@ -115,14 +115,32 @@
 // Commenting code
 
 
-// Take 2 parameters that are numbers and sum them
-const addTwoNums = (firstNum, secondNum)=>{
-	// create a new variable finalValue that is assigned the sumer of the 2 variables
-    const finalValue = firstNum + secondNum;
-    //return the output11
-    return finalValue;
-}
+// // Take 2 parameters that are numbers and sum them
+// const addTwoNums = (firstNum, secondNum)=>{
+// 	// create a new variable finalValue that is assigned the sumer of the 2 variables
+//     const finalValue = firstNum + secondNum;
+//     //return the output11
+//     return finalValue;
+// }
 
+
+// Describe some common programming principles
+/* 
+
+• Use DRY code, do not repeat youself or lines of code throughout a program
+•Principle of least astonishment -- A person using or reading you code should never be surprised by an outcome. If something in the code is not clear there should be an accurate comment included to make it easier to understand
+• Try to find the most simple way to complete a problem. This takes in several other principles like DRY code and KISS (keep it simple stupid)
+• Don't optimize too soon. It is better to get a piece of code working and then look for improvements that to try to optimize on the fly. By combining this with avoiding adding functionality until it is necessary it will help you work through problems quicker and avoid confusion in your code
+
+*/
+
+// Error reading
+
+foo();
+
+const foo ()=>{
+    console.log('hi');
+}
 
 
 
