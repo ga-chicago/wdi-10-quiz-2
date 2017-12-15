@@ -49,15 +49,27 @@
 // for(i=0; i < array1.length; i++){}
 
 /* create callback */
-//1
-let abc = function (){
-    console.log("hi");
-    param();
-};
-let zyx = function (param){
-    console.log("bye");
-};
-abc(zyx());
+//
+// let abc = function (){
+//     console.log("hi");
+//     param();
+// };
+// let zyx = function (param){
+//     console.log("bye");
+// };
+// abc(zyx());
+
+///// indent ///
+if (true) {
+    const a = 2 + 2;
+    console.log(a);
+}
+
+if (true) {
+    if (false) {
+        console.log('hi');
+    }
+}
 
 
 
