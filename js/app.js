@@ -71,3 +71,15 @@ let fighter = {
 fighter.method().foo()
 
 
+
+//create a callback
+
+let fun1 = () => {
+  console.log("this is fun1")
+}
+
+function fun2(fun1) {
+
+}
+fun2(fun1())
+
