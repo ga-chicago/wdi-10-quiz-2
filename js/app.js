@@ -68,7 +68,7 @@ let function2 = (param) => {
 }
 function2(function1);
 
-Correctly indent the following code:
+//Correctly indent the following code:
 
 if(true){
     const a = 2 + 2;
@@ -86,16 +86,18 @@ if(true){
 
 const arrayOfEvens = [2, 4, 6, 8, 10];
 
-Function definition placement
+//Function definition placement
 
-Clean up this code, so that it works and has function definitions in the correct place
+//Clean up this code, so that it works and has function definitions in the correct place
 
-bar();
-const bar = ()=>{
+
+
+const bar = () => {
     console.log('bar here');
 }
-foo();
+bar();
 
-const foo = ()=>{
+const foo = () => {
     console.log('foo here');
 }
+foo();
