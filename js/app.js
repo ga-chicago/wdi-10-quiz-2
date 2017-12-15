@@ -70,4 +70,12 @@ let func2 = (param)=>{
 func2(func1);
 // In the definition of the second function, invoke (call) the parameter that is being passed into it. Remember, this parameter is a function
 
-
+if(true){
+	const a = 2 + 2;
+	console.log(a);
+}
+if(true){
+	if(false){
+        	console.log('hi');
+    	}
+    }
