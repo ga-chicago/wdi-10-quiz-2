@@ -94,6 +94,22 @@ if (true) {
 //COMMIT 4
 
 
+const evenNumArray = [2, 4, 6, 8, 10];
+
+
+//COMMIT 5
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
