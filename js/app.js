@@ -100,17 +100,28 @@
 
 // Function definition placement
 
-const bar = () =>{
-    console.log('bar here');
+// const bar = () =>{
+//     console.log('bar here');
+// }
+
+// const foo = ()=>{
+//     console.log('foo here');
+// }
+
+// bar();
+// foo();
+
+
+// Commenting code
+
+
+// Take 2 parameters that are numbers and sum them
+const addTwoNums = (firstNum, secondNum)=>{
+	// create a new variable finalValue that is assigned the sumer of the 2 variables
+    const finalValue = firstNum + secondNum;
+    //return the output11
+    return finalValue;
 }
-
-const foo = ()=>{
-    console.log('foo here');
-}
-
-bar();
-foo();
-
 
 
 
