@@ -17,9 +17,34 @@ let answer = {
 */
 
 let halo = {
-             protag: "John",
-Power: "Plot armor"}
+    protag: "John",
+    Power: "Plot armor"
+}
 
-let games = ["Mario", "Zelda", halo, "Nier"]
+let nier = ["Replicant", "Automata"]
 
-console.log(games[2].protag)
+let mario = () => {
+    console.log("[Coinage intensifies]")
+}
+
+let zelda = {
+    protag: "Link",
+    games: ["Zelda 1", "Zelda 2", "zelda: A Link to the past"]
+}
+
+
+let games = [mario, "Zelda", halo, nier]
+
+//console.log(games[2].protag)
+
+//console.log(games[3][1])
+
+//console.log(games[0]())
+
+for (name in zelda) {
+    console.log(name)
+        for (let i = 0; i < zelda.games.length; i++){
+            console.log(zelda.games[i])
+    } 
+    
+};
