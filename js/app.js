@@ -31,33 +31,80 @@
 
 // 7.
 
-const someObj = {
-	someMethod() {
-		return {
-			name: "Anthony"
-		}
-	}
+// const someObj = {
+// 	someMethod() {
+// 		return {
+// 			name: "Anthony"
+// 		}
+// 	}
+// }
+// console.log(someObj.someMethod().name)
+
+// // 8.
+
+// const obj8 = {
+// 	someMethod() {
+// 		return {
+// 			someArray: [1,2,3,4]
+// 		}
+// 	}
+// }
+// console.log(obj8.someMethod().someArray[2])
+
+// // 2.
+// const funct2 = () => {
+// 	return [
+// 		1,
+// 		2,
+// 		3,
+// 	]
+// } 
+// console.log(funct2()[1])
+
+
+
+// CREATE A CALL BACK
+
+
+const funct1 = () => {
+	console.log("Function 1 just ran")
 }
-console.log(someObj.someMethod().name)
 
-// 8.
-
-const obj8 = {
-	someMethod() {
-		return {
-			someArray: [1,2,3,4]
-		}
-	}
+const funct2 = (inputParam) => {
+	console.log("Fucntion 2 just ran")
+	inputParam()
 }
-console.log(obj8.someMethod().someArray[2])
 
-// 2.
-const funct2 = () => {
-	return [
-		1,
-		2,
-		3,
-	]
-} 
+console.log(funct2(funct1))
 
-console.log(funct2()[1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
