@@ -118,3 +118,16 @@ funky2(sneaky);
 
 funky2(funky1());
 
+
+//!!!!!!!!!!!!!!!!!!    Problem 4    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+if (true) {
+    const a = 2 + 2;
+	console.log(a);
+}
+
+if (true) {
+	if(false){
+    	console.log('hi');
+   	}
+}
