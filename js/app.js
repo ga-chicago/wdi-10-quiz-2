@@ -67,3 +67,15 @@ let function2 = (param) => {
   return param();
 }
 function2(function1);
+
+Correctly indent the following code:
+
+if(true){
+    const a = 2 + 2;
+    console.log(a);
+        }
+if(true){
+  if(false){
+    console.log('hi');
+  }
+}
