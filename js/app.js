@@ -100,3 +100,11 @@ const foo = ()=>{
 }
 foo();
 
+// Commenting code
+// Write your own comments for each line of code:
+
+const addTwoNums = (firstNum, secondNum)=>{ //makes the function a value of the addTwoNums variable
+    const finalValue = firstNum + secondNum; // gives the variable finalValue a value of the sum of the two parameters
+    return finalValue; // returns the final sum 
+}
+
