@@ -53,3 +53,17 @@ let arrayWithFunction = ["firstElement", function functionWithInnerFunction() {
 }, "third element"]
 
 arrayWithFunction[1]();
+
+//Define two functions and set them to variables
+//The second function takes a parameter
+//Call the second function, passing in the variable that references the first function as the parameter
+//In the definition of the second function, invoke (call) the parameter that is being passed into it. Remember, this parameter is a function
+
+
+let function1 = () => {
+  console.log("function callback success");
+}
+let function2 = (param) => {
+  return param();
+}
+function2(function1);
