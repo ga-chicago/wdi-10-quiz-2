@@ -83,3 +83,16 @@ function fun2(fun1) {
 }
 fun2(fun1())
 
+//indentation
+if(true){
+  const a = 2 + 2;
+  console.log(a);
+}
+
+if(true){
+  if(false){
+    console.log('hi');
+  }
+}
+
+
