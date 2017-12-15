@@ -79,3 +79,23 @@ if(true){
     console.log('hi');
   }
 }
+
+//Semantic naming of variables
+
+//Fix this variable to have a better name:
+
+const arrayOfEvens = [2, 4, 6, 8, 10];
+
+Function definition placement
+
+Clean up this code, so that it works and has function definitions in the correct place
+
+bar();
+const bar = ()=>{
+    console.log('bar here');
+}
+foo();
+
+const foo = ()=>{
+    console.log('foo here');
+}
