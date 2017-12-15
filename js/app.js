@@ -78,11 +78,14 @@ bar();
 foo();
 // function definition placement
 
+// commenting code
 
+const addTwoNums = (firstNum, secondNum)=>{ //function addTwoNums sets parameters for first and second nums
+    const finalValue = firstNum + secondNum; //finalValue adds first and second nums
+    return finalValue; //returns sum of first and second nums
+}
 
-
-
-
+// commenting code
 
 
 
