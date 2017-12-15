@@ -85,5 +85,18 @@ if(true){
 
 const arr = [2, 4, 6, 8, 10];
 
+// Function definition placement
+// Clean up this code, so that it works and has function definitions in the correct place
 
+
+const bar = ()=>{
+    console.log('bar here');
+}
+bar();
+
+
+const foo = ()=>{
+    console.log('foo here');
+}
+foo();
 
