@@ -27,5 +27,60 @@ let curb2 = [
 ]
 console.log(curb2[1][5])
 
-// combine ojects, arrays, and functions
+// combine objects, arrays, and functions
+
+// combine objects, arrays, and functions at more than 1 level
+
+
+
+
+
+// combine objects, arrays, and functions at more than 1 level
+
+
+// Create callback
+
+
+
+// create callback
+
+
+// indentation
+if(true){
+  
+  const a = 2 + 2;
+  
+    console.log(a);
+ }
+
+if(true){
+
+  if(false){
+
+    console.log('hi');
+   }            
+}
+// indentation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
