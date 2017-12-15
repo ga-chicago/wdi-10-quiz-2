@@ -41,6 +41,7 @@ serenity.newPassengers(1, 'River');
 
 // 2. Combine objects, arrays, and functions
 // Create a function that returns an object that has an array. Log one of the elements of that array.
+//* I PLAN TO COME BACK TO THIS
 
 let thisFunction = () => {
 
@@ -107,6 +108,27 @@ const foo = () => {
 }
 
 foo();
+
+// 7. Commenting code
+// Write your own comments for each line of code:
+
+// add two numbers together and return the total 
+// function takes two numbers as parameters
+const addTwoNums = (firstNum, secondNum) => {
+	// create a variable to hold the total
+	// add the two numbers together
+    const finalValue = firstNum + secondNum;
+    // return the total
+    return finalValue;
+}
+
+
+
+
+
+
+
+
 
 
 
