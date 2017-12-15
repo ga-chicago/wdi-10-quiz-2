@@ -88,6 +88,11 @@ if(true){
    }
 }
 
+// 5. Semantic naming of variables
+// Fix this variable to have a better name:
+
+const numbers = [2, 4, 6, 8, 10];
+
 
 
 
