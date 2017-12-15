@@ -60,4 +60,14 @@ function inceptReturn(){
 console.log(inceptReturn().key1[0]);
 console.log("")
 
+// Create a callback
+// Define two functions and set them to variables
+let func1 = ()=>{};
+let func2 = (param)=>{
+	param();
+};
+// Call the second function, passing in the variable that references the first function as the parameter
+func2(func1);
+// In the definition of the second function, invoke (call) the parameter that is being passed into it. Remember, this parameter is a function
+
 
