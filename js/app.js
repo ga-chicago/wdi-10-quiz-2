@@ -28,6 +28,8 @@ const anArr = [{
 // console.log(anArr[0].objProp);
 
 
+//COMMIT 1
+
 
 //Create a function that returns an array. Log an element of the array.
 
@@ -57,14 +59,24 @@ const inceptionFunction = () => {
 	}
 }
 
-inceptionFunction()();
+// inceptionFunction()();
 
 
+//COMMIT 2
 
 
+const funcA = () => {
+	return 'michael\'s quiz';
+}
+
+const funcB = (param) => {
+	console.log(param());
+}
+
+// funcB(funcA);
 
 
-
+//COMMIT 3
 
 
 
