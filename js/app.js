@@ -127,3 +127,16 @@ const addTwoNums = (firstNum, secondNum)=>{
 
 //error reading 
 //the function is not being assigned to the variable foo because it is missing the assignment operator =
+
+//coerce data types
+const b = 5;
+
+if(b === 5){ //will be true
+    console.log('this line should execute');
+}
+
+
+const a = '5';
+console.log(5 + parseInt(a));
+
+
