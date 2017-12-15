@@ -138,6 +138,21 @@ const foo (=) ()=>{
 // The function is being called before it's defined AND it needed an equal sign after "foo" (which I put in ()) to acutally define it. 
 
 
+// 9.
+// Fix the following code so the log executes (don't change the if statement):
+
+const b = '5';
+
+if(b === '5'){ //will be false
+    console.log('this line should execute');
+}
+
+// Fix the following code so the value 10 is logged (change only the line that has the console.log on it):
+
+const a = 5;
+console.log(5 + a);
+
+
 
 
 
