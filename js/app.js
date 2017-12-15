@@ -120,3 +120,10 @@ const addTwoNums = (firstNum, secondNum)=>{
     //returning the sum of the two parameters 
     return finalValue;
 }
+
+
+// common programming principles 
+
+
+//error reading 
+//the function is not being assigned to the variable foo because it is missing the assignment operator =
