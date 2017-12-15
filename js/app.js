@@ -81,7 +81,7 @@ const funcB = (param) => {
 
 if (true) {
     const a = 2 + 2;
-	console.log(a);
+	// console.log(a);
 }
 
 if (true) {
@@ -108,8 +108,8 @@ const foo = ()=>{
     console.log('foo here');
 }
 
-bar();
-foo();
+// bar();
+// foo();
 
 
 //COMMIT 6
@@ -125,6 +125,35 @@ const addTwoNums = (firstNum, secondNum)=>{
 
 
 //COMMIT 7
+
+
+//Some common programming principles include:
+
+//Writing DRY code, which stands for Don't Repeat Yourself! An important part of keeping your code readable and efficient, writing DRY code means to minimize repition of functions within a program.
+
+//The abstraction principle is related to DRY code, but focuses more specifically on minimizing duplicating of code throughout your program by means of abstraction. Abstraction is a technique for arranging complex systems to obscure information or processes unnecessary to the intended functionality.
+
+//KISS! This applies across all walks of life but is particularly present in programming. It means Keep It Simple, Stupid, and it's quite literal. Choose the simplest possible method for achieving your intention.
+
+//Writing code for the maintainer is a principle wherein you recognize that although you may be the maintainer of your code, you should still write it as though it was written for a stranger to interpret, because future you is unlikely to remember all the details of what you have written
+
+
+foo();
+
+const foo ()=>{
+    console.log('hi');
+}
+
+//Missing initializer in const declaration means you forgot to use an assignment operator (=) to assign the function to the const
+
+
+//COMMIT 8
+
+
+
+
+
+
 
 
 
