@@ -122,7 +122,20 @@ const addTwoNums = (firstNum, secondNum) => {
     return finalValue;
 }
 
+// 8.
+// Describe some common programming principles
+/* Keep your code as simple as possible to do the task it needs to execute. If someone else were to read your code or use it they should be able to do so without a lot of extra work. Also, if something works keep using it! Don't try to re-invent the wheel.*/
 
+// Error reading
+// What is meant by the error this produces?
+
+foo();
+
+const foo (=) ()=>{
+    console.log('hi');
+}
+
+// The function is being called before it's defined AND it needed an equal sign after "foo" (which I put in ()) to acutally define it. 
 
 
 
