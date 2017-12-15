@@ -131,3 +131,33 @@ if (true) {
     	console.log('hi');
    	}
 }
+
+// problem 5. 
+
+// name it nums
+
+// Problem 6. 
+
+// const bar = ()=>{
+//     console.log('bar here');
+// }
+
+// bar();
+
+
+// const foo = () => {
+//     console.log('foo here');
+// }
+
+// foo();
+
+// Problem 7.
+
+//state function with two parameters
+const addTwoNums = (firstNum, secondNum)=>{
+    //new var that is the total of the two parameters
+    const finalValue = firstNum + secondNum;
+    //returns the total of the two parameters
+    return finalValue;
+}
+
