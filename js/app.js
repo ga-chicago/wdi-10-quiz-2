@@ -95,8 +95,21 @@
 // Semantic naming of variables
 
 
-const evensToTen = [2, 4, 6, 8, 10];
+// const evensToTen = [2, 4, 6, 8, 10];
 
+
+// Function definition placement
+
+const bar = () =>{
+    console.log('bar here');
+}
+
+const foo = ()=>{
+    console.log('foo here');
+}
+
+bar();
+foo();
 
 
 
