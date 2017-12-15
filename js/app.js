@@ -87,6 +87,12 @@ const addTwoNums = (firstNum, secondNum)=>{ //function addTwoNums sets parameter
 
 // commenting code
 
+// Error Reading
+
+// it's a syntax error due to calling the function foo before the function has been set
+
+// Error reading
+
 
 
 
