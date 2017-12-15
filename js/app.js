@@ -62,6 +62,11 @@ if(true){
 }
 // indentation
 
+// Semantic naming of variables
+
+const evenNums = [2, 4, 6, 8, 10,]
+
+// semantic naming of variables
 
 
 
