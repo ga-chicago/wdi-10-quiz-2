@@ -101,3 +101,31 @@ const foo = () => {
     console.log('foo here');
 }
 foo();
+
+//Write your own comments for each line of code:
+
+// function adds two numbers, which are the parameters
+const addTwoNums = (firstNum, secondNum)=>{
+    // declares answer to be returned, which is the sum of the two parameters
+    const finalValue = firstNum + secondNum;
+    // returns the answer
+return finalValue;
+}
+/*
+foo();
+
+const foo ()=>{
+    console.log('hi');
+}
+*/
+
+// the error means that the anonymous function is not hoisted up to the function call
+
+const b = 5;
+
+if(b === 5){ //will be false
+    console.log('this line should execute');
+}
+
+const a = 5;
+console.log(5 + a);
