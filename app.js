@@ -73,8 +73,18 @@
 // Semantic
 const evenNumbers = [2, 4, 6, 8, 10];
 
+// Function def placement
+
+const bar = ()=> {
+    console.log('bar here');
+}
 
 
+const foo = ()=> {
+    console.log('foo here');
+}
+bar();
+foo();
 
 
 
