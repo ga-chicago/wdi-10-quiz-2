@@ -99,6 +99,15 @@ if(true){
 
 const arrOfEvenNums = [2, 4, 6, 8, 10]
 
+//function definition placement 
 
+const bar = ()=>{
+    console.log('bar here');
+}
+bar()
 
+const foo = ()=>{
+    console.log('foo here');
+}
+foo()
 
