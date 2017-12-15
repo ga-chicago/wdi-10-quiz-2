@@ -100,6 +100,21 @@ const evenNumArray = [2, 4, 6, 8, 10];
 //COMMIT 5
 
 
+const bar = ()=>{
+    console.log('bar here');
+}
+
+const foo = ()=>{
+    console.log('foo here');
+}
+
+bar();
+foo();
+
+
+//COMMIT 6
+
+
 
 
 
