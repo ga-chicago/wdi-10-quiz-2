@@ -64,6 +64,7 @@ const inceptionFunction = () => {
 
 //COMMIT 2
 
+//Create a callback
 
 const funcA = () => {
 	return 'michael\'s quiz';
@@ -78,6 +79,7 @@ const funcB = (param) => {
 
 //COMMIT 3
 
+//Indentation
 
 if (true) {
     const a = 2 + 2;
@@ -93,12 +95,14 @@ if (true) {
 
 //COMMIT 4
 
+//Semantic naming of variables
 
 const evenNumArray = [2, 4, 6, 8, 10];
 
 
 //COMMIT 5
 
+//Function definition placement
 
 const bar = ()=>{
     console.log('bar here');
@@ -114,6 +118,7 @@ const foo = ()=>{
 
 //COMMIT 6
 
+//Commenting code
 
 //a function that takes two parameters, each of them numbers
 const addTwoNums = (firstNum, secondNum)=>{
