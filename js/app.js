@@ -111,3 +111,12 @@ const foo = ()=>{
 }
 foo()
 
+// commenting your code
+//making a function called addTwoNums that takes two parameters firstNum and secondNum
+
+const addTwoNums = (firstNum, secondNum)=>{
+  // declaring finalValue to be the product of the parameters
+    const finalValue = firstNum + secondNum;
+    //returning the sum of the two parameters 
+    return finalValue;
+}
