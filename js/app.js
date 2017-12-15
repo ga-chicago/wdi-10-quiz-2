@@ -98,3 +98,23 @@ console.log(getArr2().player[2]);
 // Create an array that has a function that returns an object that has a method. Call that method.
 // Create an array that has a function that returns a function. Call the inner function.
 
+
+//!!!!!!!!!!!!!!!!!!    Problem 3    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+let funky1 = () => {
+	console.log("funky1");
+}
+
+let sneaky = funky1();
+
+let funky2 = (func) => {
+	console.log("funky2");
+	console.log("this isn't running backwards");
+	console.log("the return runs first i guess");
+	return func
+}
+
+funky2(sneaky);
+
+funky2(funky1());
+
