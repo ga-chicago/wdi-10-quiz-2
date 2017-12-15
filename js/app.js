@@ -115,6 +115,17 @@ foo();
 //COMMIT 6
 
 
+//a function that takes two parameters, each of them numbers
+const addTwoNums = (firstNum, secondNum)=>{
+	//declares a variable that is equal to the sum of the two passed numerical parameters
+    const finalValue = firstNum + secondNum;
+    //returns the declared variable containing the sum of the parameters
+    return finalValue;
+}
+
+
+//COMMIT 7
+
 
 
 
