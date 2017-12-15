@@ -79,10 +79,19 @@ const funcB = (param) => {
 //COMMIT 3
 
 
+if (true) {
+    const a = 2 + 2;
+	console.log(a);
+}
+
+if (true) {
+	if (false) {
+    	console.log('hi');
+    }
+}
 
 
-
-
+//COMMIT 4
 
 
 
