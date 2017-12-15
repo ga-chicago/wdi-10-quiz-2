@@ -50,14 +50,12 @@ if(true){
   
   const a = 2 + 2;
   
-    console.log(a);
+console.log(a);
  }
 
 if(true){
-
   if(false){
-
-    console.log('hi');
+     console.log('hi');
    }            
 }
 // indentation
@@ -68,8 +66,17 @@ const evenNums = [2, 4, 6, 8, 10,]
 
 // semantic naming of variables
 
+// Function definition placement
+const foo = ()=>{
+	console.log('foo here');
+}
+const bar = ()=>{
+    console.log('bar here');
+}
 
-
+bar();
+foo();
+// function definition placement
 
 
 
