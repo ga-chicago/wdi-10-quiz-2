@@ -99,13 +99,23 @@
 // missing initializer means that your variable is not assigned to anything
 // to fix it needs an assignment operator after the variable name to be able to be initialized and referenced
 // also the function can't be called before the function declaration
-// because the code is read from top to bottom 
+// because the code is read from top to bottom
+//
+// const foo = ()=>{
+//     console.log('hi');
+// }
+// foo();
 
-const foo = ()=>{
-    console.log('hi');
+// coerce data types ///////
+const b = 5;
+
+if(b === 5){ //will be false
+    console.log('this line should execute');
 }
-foo();
 
+// tried 
+const a = '5';
+console.log(parseInt(a + a);
 
 
 
