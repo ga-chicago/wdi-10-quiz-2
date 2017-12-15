@@ -79,3 +79,11 @@ if(true){
         	console.log('hi');
     	}
     }
+
+// Semantic naming of variables
+// Fix this variable to have a better name:
+
+const arr = [2, 4, 6, 8, 10];
+
+
+
