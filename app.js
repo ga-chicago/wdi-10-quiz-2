@@ -70,21 +70,30 @@
 //         console.log('hi');
 //     }
 // }
-// Semantic
-const evenNumbers = [2, 4, 6, 8, 10];
-
-// Function def placement
-
-const bar = ()=> {
-    console.log('bar here');
+// // Semantic
+// const evenNumbers = [2, 4, 6, 8, 10];
+//
+// // Function def placement
+//
+// const bar = ()=> {
+//     console.log('bar here');
+// }
+//
+//
+// const foo = ()=> {
+//     console.log('foo here');
+// }
+// bar();
+// foo();
+//
+// // comments //
+// should do -> add any two numbers you pass into parentheses as an argument when you call the function
+const addTwoNums = (firstNum, secondNum)=>{
+    // the final value is th fist number plus the second number
+    const finalValue = firstNum + secondNum;
+    // return the sum value and stop the function
+    return finalValue;
 }
-
-
-const foo = ()=> {
-    console.log('foo here');
-}
-bar();
-foo();
 
 
 
