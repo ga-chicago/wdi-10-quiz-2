@@ -2,28 +2,28 @@
 
 // 1.
 
-// const obj1 = {
-// 	array1: [1,2,3,4],
-// }
-// console.log(obj1.array1[2]);
+const obj1 = {
+	array1: [1,2,3,4],
+}
+console.log(obj1.array1[2]);
 
 // // 3.
 
-// const obj3= {
-// 	someMethod() {
-// 		return "This is the method from question 3"
-// 	}
-// }
-// console.log(obj3.someMethod())
+const obj3= {
+	someMethod() {
+		return "This is the method from question 3"
+	}
+}
+console.log(obj3.someMethod())
 
 // // 4. 
 
-// const someArray = [
-// 	someObj = {
-// 		name: "Anthony"
-// 	}
-// ]
-// console.log(someArray[0].name)
+const someArray = [
+	someObj = {
+		name: "Anthony"
+	}
+]
+console.log(someArray[0].name)
 
 
 // COMBINE OBJECTS ARRAYS AND FUNCTIONS more than one level deep
@@ -31,97 +31,97 @@
 
 // 7.
 
-// const someObj = {
-// 	someMethod() {
-// 		return {
-// 			name: "Anthony"
-// 		}
-// 	}
-// }
-// console.log(someObj.someMethod().name)
+const someObj = {
+	someMethod() {
+		return {
+			name: "Anthony"
+		}
+	}
+}
+console.log(someObj.someMethod().name)
 
 // // 8.
 
-// const obj8 = {
-// 	someMethod() {
-// 		return {
-// 			someArray: [1,2,3,4]
-// 		}
-// 	}
-// }
-// console.log(obj8.someMethod().someArray[2])
+const obj8 = {
+	someMethod() {
+		return {
+			someArray: [1,2,3,4]
+		}
+	}
+}
+console.log(obj8.someMethod().someArray[2])
 
 // // 2.
-// const funct2 = () => {
-// 	return [
-// 		1,
-// 		2,
-// 		3,
-// 	]
-// } 
-// console.log(funct2()[1])
+const funct2 = () => {
+	return [
+		1,
+		2,
+		3,
+	]
+} 
+console.log(funct2()[1])
 
 
 
 // CREATE A CALL BACK
 
 
-// const funct1 = () => {
-// 	console.log("Function 1 just ran")
-// }
+const funct1 = () => {
+	console.log("Function 1 just ran")
+}
 
-// const funct2 = (inputParam) => {
-// 	console.log("Fucntion 2 just ran")
-// 	inputParam()
-// }
+const funct2 = (inputParam) => {
+	console.log("Fucntion 2 just ran")
+	inputParam()
+}
 
 // console.log(funct2(funct1))
 
 
 // INDENTATION
 
-// if(true) {
-// 	const a = 2 + 2;
-// 	console.log(a);
-// }
+if(true) {
+	const a = 2 + 2;
+	console.log(a);
+}
 
-// if(true){
-// 	if(false){
-// 	console.log('hi');
-// 	}
-// }
+if(true){
+	if(false){
+	console.log('hi');
+	}
+}
 
 
 // Semantic naming of variables
 
 
-// const evensToTen = [2, 4, 6, 8, 10];
+const evensToTen = [2, 4, 6, 8, 10];
 
 
 // Function definition placement
 
-// const bar = () =>{
-//     console.log('bar here');
-// }
+const bar = () =>{
+    console.log('bar here');
+}
 
-// const foo = ()=>{
-//     console.log('foo here');
-// }
+const foo = ()=>{
+    console.log('foo here');
+}
 
-// bar();
-// foo();
+bar();
+foo();
 
 
 // Commenting code
 
 
-// // Take 2 parameters that are numbers and sum them
-// const addTwoNums = (firstNum, secondNum)=>{
-// 	// create a new variable finalValue that is assigned the sumer of the 2 variables
-//     const finalValue = firstNum + secondNum;
-//     //return the output11
-//     return finalValue;
-// }
+// Take 2 parameters that are numbers and sum them
+const addTwoNums = (firstNum, secondNum)=>{
+	// create a new variable finalValue that is assigned the sumer of the 2 variables
+    const finalValue = firstNum + secondNum;
+    //return the output11
+    return finalValue;
+}
 
 
 // Describe some common programming principles
@@ -136,11 +136,11 @@
 
 // Error reading
 
-// foo();
+foo();
 
-// const foo ()=>{
-//     console.log('hi');
-// }
+const foo ()=>{
+    console.log('hi');
+}
 
 // Uncaught SyntaxError: Missing initializer in const declaration
 // I believe this is saying that missing '=' between const and foo is the issue. That needs to be there for the code to understand what variable (a function) it is looking at
@@ -150,7 +150,6 @@
 
 
 const b = '5';
-
 if(b == 5){ //will be false
     console.log('this line should execute');
 }
