@@ -66,19 +66,30 @@
 // CREATE A CALL BACK
 
 
-const funct1 = () => {
-	console.log("Function 1 just ran")
+// const funct1 = () => {
+// 	console.log("Function 1 just ran")
+// }
+
+// const funct2 = (inputParam) => {
+// 	console.log("Fucntion 2 just ran")
+// 	inputParam()
+// }
+
+// console.log(funct2(funct1))
+
+
+// INDENTATION
+
+if(true) {
+	const a = 2 + 2;
+	console.log(a);
 }
 
-const funct2 = (inputParam) => {
-	console.log("Fucntion 2 just ran")
-	inputParam()
+if(true){
+	if(false){
+	console.log('hi');
+	}
 }
-
-console.log(funct2(funct1))
-
-
-
 
 
 
