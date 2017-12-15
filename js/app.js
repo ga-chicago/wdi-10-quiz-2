@@ -138,11 +138,11 @@ const addTwoNums = (firstNum, secondNum)=>{
 //Writing code for the maintainer is a principle wherein you recognize that although you may be the maintainer of your code, you should still write it as though it was written for a stranger to interpret, because future you is unlikely to remember all the details of what you have written
 
 
-foo();
+// foo();
 
-const foo ()=>{
-    console.log('hi');
-}
+// const foo ()=>{
+//     console.log('hi');
+// }
 
 //Missing initializer in const declaration means you forgot to use an assignment operator (=) to assign the function to the const
 
@@ -150,25 +150,21 @@ const foo ()=>{
 //COMMIT 8
 
 
+//Coerce data types
+
+const b = '5';
+
+if(parseInt(b) === 5){ //will be false
+    console.log('this line should execute');
+}
 
 
 
+const a = '5';
+console.log(5 + parseInt(a));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//COMMIT 9 
 
 
 
