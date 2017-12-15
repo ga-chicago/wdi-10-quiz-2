@@ -138,6 +138,9 @@
 
 
 
+// Fix this variable to have a better name:
+
+const numArray = [2, 4, 6, 8, 10];
 
 
 
