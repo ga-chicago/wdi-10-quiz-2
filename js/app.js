@@ -21,3 +21,53 @@ let foo = {
   }
 }
 foo.method()
+
+
+// Combine objects, arrays, and functions more than one level deep
+// 1. Create an array that has a function that returns an object that has an object.  Log a property of the inner object.
+
+let funarr = [
+  1,
+  'ghost',
+   () => {
+    return {
+      prop: 'here',
+      this: 'is confusing',
+      object: {
+        moreProps: 'an object nested in an object nested in a function nested in an array. confused yet?'
+      }
+    }
+   }]
+
+  funarr[2]().object.moreProps
+
+
+// 1. Create an array that has a function that returns an object that has an array.  Log an element of the inner array.
+let array = [
+  'hey',
+  () => {
+    return {
+      whoa: 'there',
+      hey: ['this', 167, 'now']
+    }
+  }
+]
+console.log(array[1]().hey[0])
+
+
+// 1. Create an object that has a method that returns an object that has another method.  Call the inner method.
+let fighter = {
+  ethan: 'ebel',
+  friend: 'brad',
+  method(){
+    return{
+      prop: '12,455',
+      foo(){
+        console.log('my inner most method')
+      }
+    }
+  }
+}
+fighter.method().foo()
+
+
