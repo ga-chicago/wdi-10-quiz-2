@@ -119,3 +119,22 @@ const addTwoNums = (firstNum, secondNum)=>{ //makes the function a value of the 
 // }
 
 // Theres nothing to start the process of giving the const variable a value of that function
+
+// Coerce data types
+// Fix the following code so the log executes (don't change the if statement):
+
+const b = '5';
+
+if(b == 5){ //will be false
+    console.log('this line should execute');
+}
+// Fix the following code so the value 10 is logged (change only the line that has the console.log on it):
+
+const a = '5';
+console.log(5 + Number(a));
+
+
+
+
+
+
