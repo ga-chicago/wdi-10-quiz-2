@@ -108,6 +108,9 @@
 
 
 // Define two functions and set them to variables
+// The second function takes a parameter
+// Call the second function, passing in the variable that references the first function as the parameter
+// In the definition of the second function, invoke (call) the parameter that is being passed into it. Remember, this parameter is a function
 	myFunctFour=()=>{
 		console.log("It's Alive!!")
 	}
@@ -116,12 +119,22 @@
 	}
 
 	myFunctFive(myFunctFour())
-// The second function takes a parameter
-// Call the second function, passing in the variable that references the first function as the parameter
-// In the definition of the second function, invoke (call) the parameter that is being passed into it. Remember, this parameter is a function
 
 
 
+
+// Correctly indent the following code:
+
+	if(true){
+		const a = 2 + 2;
+		console.log(a);
+    }
+
+    if(true){
+	if(false){
+        console.log('hi');
+    	}
+  	}
 
 
 
