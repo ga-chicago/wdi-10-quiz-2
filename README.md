@@ -203,3 +203,7 @@ console.log(5 + a);
 &#x1F534; The commit message should read: <br>
 "Commit 9 - Coerce data types"
 <hr>
+
+---
+
+If you finish early, finish/work on your lab from yesterday or the one from the previous day if you haven't finished that one yet.
