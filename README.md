@@ -17,10 +17,10 @@ Before starting this, please read this set of [Tips and Tricks](./TIPS.md)
 
 ## Setup
 
-0\. **IMPORTANT: Read all instructions on this quiz very carefully before you do them!**
-1\. FORK THIS AND CLONE IT. Inside of the folder it will automatically create, create our folder structure.
-2\. Copy the questions that you are answering into your file (and comment it out) and write the answer below the question.
-3\. When you are finished or at 11:30, whichever comes first, make a pull request from your fork.
+0\. **IMPORTANT: Read all instructions on this quiz very carefully before you do them!**<br><br>
+1\. FORK THIS AND CLONE IT. Inside of the folder it will automatically create, create our folder structure.<br><br>
+2\. Copy the questions that you are answering into your file (and comment it out) and write the answer below the question.<br><br>
+3\. When you are finished or at 11:30, whichever comes first, make a pull request from your fork.<br><br>
 
 ## Combine objects, arrays, and functions
 
