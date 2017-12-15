@@ -1,3 +1,4 @@
+/*
 let answer = {
     moreAnswers: [1,2,3,4,5],
     theresMore: {
@@ -12,4 +13,13 @@ let answer = {
 
 //console.log(answer.theresMore.but);
 
-answer.manKind()
+//answer.manKind();
+*/
+
+let halo = {
+             protag: "John",
+Power: "Plot armor"}
+
+let games = ["Mario", "Zelda", halo, "Nier"]
+
+console.log(games[2].protag)
