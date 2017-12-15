@@ -14,7 +14,7 @@ let answer = {
 //console.log(answer.theresMore.but);
 
 //answer.manKind();
-*/
+
 
 let halo = {
     protag: "John",
@@ -43,8 +43,33 @@ let games = [mario, "Zelda", halo, nier]
 
 for (name in zelda) {
     console.log(name)
-        for (let i = 0; i < zelda.games.length; i++){
-            console.log(zelda.games[i])
-    } 
-    
+    for (let i = 0; i < zelda.games.length; i++) {
+        console.log(zelda.games[i])
+    }
+
 };
+*/
+
+let answer = {
+    place: ["here", "there", "everywhere"],
+    time: "never",
+    why: {reason1: "because", reason2: "stonecold", reason3: "said", reason4: "so"},
+    method: function () {
+        console.log("Notice me sampam")
+    }
+}
+//speak = function () {
+//    console.log(answer.time)
+//}
+//
+//speak = function () {
+//    console.log(answer.place[2])
+//}
+
+speak = function () {
+    console.log(answer.why.reason1)
+}
+
+speak = function () {
+    console.log(answer.method())
+}
