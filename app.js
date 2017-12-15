@@ -86,15 +86,25 @@
 // bar();
 // foo();
 //
-// // comments //
-// should do -> add any two numbers you pass into parentheses as an argument when you call the function
-const addTwoNums = (firstNum, secondNum)=>{
-    // the final value is th fist number plus the second number
-    const finalValue = firstNum + secondNum;
-    // return the sum value and stop the function
-    return finalValue;
-}
+// // // comments //
+// // should do -> add any two numbers you pass into parentheses as an argument when you call the function
+// const addTwoNums = (firstNum, secondNum)=>{
+//     // the final value is th fist number plus the second number
+//     const finalValue = firstNum + secondNum;
+//     // return the sum value and stop the function
+//     return finalValue;
+// }
 
+
+// missing initializer means that your variable is not assigned to anything
+// to fix it needs an assignment operator after the variable name to be able to be initialized and referenced
+// also the function can't be called before the function declaration
+// because the code is read from top to bottom 
+
+const foo = ()=>{
+    console.log('hi');
+}
+foo();
 
 
 
