@@ -108,3 +108,14 @@ const addTwoNums = (firstNum, secondNum)=>{ //makes the function a value of the 
     return finalValue; // returns the final sum 
 }
 
+
+// Error reading
+// What is meant by the error this produces?
+
+// foo();
+
+// const foo ()=>{
+//     console.log('hi');
+// }
+
+// Theres nothing to start the process of giving the const variable a value of that function
