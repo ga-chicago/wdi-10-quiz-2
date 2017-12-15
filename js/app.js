@@ -136,16 +136,28 @@
 
 // Error reading
 
-foo();
+// foo();
 
-const foo ()=>{
-    console.log('hi');
+// const foo ()=>{
+//     console.log('hi');
+// }
+
+// Uncaught SyntaxError: Missing initializer in const declaration
+// I believe this is saying that missing '=' between const and foo is the issue. That needs to be there for the code to understand what variable (a function) it is looking at
+
+
+// Coerce data types
+
+
+const b = '5';
+
+if(b == 5){ //will be false
+    console.log('this line should execute');
 }
 
 
-
-
-
+const a = '5';
+console.log(5 + parseInt(a,10));
 
 
 
