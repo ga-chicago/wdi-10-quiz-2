@@ -27,3 +27,37 @@ let myObj3 = {
 
 console.log(myObj3.myFunc());
 console.log("");
+
+
+// Combine objects, arrays, and functions more than one level deep
+// COMPLETE ANY 3
+
+// Create a function that returns an object. 
+// Log a property of that object (hint: call the function and then call a property on the return value).
+function objReturn(){
+	return {
+		key1: "value1"
+	}
+}
+
+console.log(objReturn().key1)
+console.log("")
+
+// Create a function that returns an array. Log an element of the array.
+function arrReturn(){
+	return [1,2,3,4]
+}
+console.log(arrReturn()[0])
+console.log("")
+
+// Create a function that returns an object that has an array. Log one of the elements of that array.
+function inceptReturn(){
+	return {
+		key1: [1,2,3,4]
+	}
+}
+
+console.log(inceptReturn().key1[0]);
+console.log("")
+
+
