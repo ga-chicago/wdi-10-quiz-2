@@ -29,14 +29,6 @@ console.log(a);
 
 ![browser debugger](https://i.imgur.com/C0F2tTB.png)
 
-## Use the Javascript Debugger in Node
-
-You can execute in node with `node debug test.js`
-
-- Type `c` to continue to next debugger statement
-- Type `quit` to quit
-- Type `repl` to examine variables
-
 ## Use Proper Indentation
 
 Always indent your code.  If a chunk of code is being execute under a certain condition (if/else, loops, functions), that condition owns that chunk of code.  Show ownership with indentation
