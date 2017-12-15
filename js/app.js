@@ -65,10 +65,10 @@ let answer = {
 //speak = function () {
 //    console.log(answer.place[2])
 //}
-
-speak = function () {
-    console.log(answer.why.reason1)
-}
+//
+//speak = function () {
+//    console.log(answer.why.reason1)
+//}
 
 speak = function () {
     console.log(answer.method())
